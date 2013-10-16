@@ -1,4 +1,6 @@
 Ryaninator::Application.routes.draw do
+
+  get '/open' => 'poe#hit_it'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
